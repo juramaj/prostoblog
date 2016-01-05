@@ -5,7 +5,7 @@ require_once ("classes/ACore.php");
 if (isset($_GET['option'])) {
 	$class = trim(strip_tags($_GET['option']));
 }
-
+//простой коментарий
 else {
 	$class = 'main';	
 }
